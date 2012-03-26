@@ -4,3 +4,6 @@ HOW TO RUN:
 > adb forward tcp:6800 tcp:7000
 3. Run RemoteDebugGameClient on host machine.
 4. Touch the screen of Android device, and then some messages text will display on RemoteDebugGameClient's UI, and the image on screen will move.
+
+NOTE:
+1. RemoteDebugGameClient depends on RemoteDebugGame, so need add RemoteDebugGame's project in build path (see Eclipse->Properties->Java Build Path->Projects)
